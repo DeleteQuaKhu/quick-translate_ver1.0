@@ -1,0 +1,10 @@
+# Shell scripts must stay LF so they run in bash on any platform and in CI.
+*.sh text eol=lf
+
+# Keep common text files as LF to avoid noisy cross-platform diffs.
+*.md text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

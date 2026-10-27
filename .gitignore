@@ -1,0 +1,13 @@
+# Environment — never commit real secrets
+.env*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# OS
+.DS_Store
